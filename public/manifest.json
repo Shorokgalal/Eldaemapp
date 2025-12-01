@@ -1,0 +1,13 @@
+{
+  "name": "Eldaem App",
+  "short_name": "Eldaem",
+  "description": "Goal tracking and community engagement platform",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait",
+  "dir": "auto",
+  "lang": "en"
+
+}

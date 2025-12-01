@@ -1,0 +1,71 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    function isAuthenticated() {
+      return request. auth != null;
+    }
+    
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth. uid == userId;
+    }
+    
+    function isValidString(text, minLen, maxLen) {
+      return text is string && text.size() >= minLen && text.size() <= maxLen;
+    }
+    
+    match /users/{userId} {
+      allow read: if isAuthenticated();
+      allow create: if isAuthenticated() && request.auth.uid == userId;
+      allow update, delete: if isOwner(userId);
+    }
+    
+    match /goals/{goalId} {
+      allow read: if isAuthenticated();
+      allow create: if isAuthenticated();
+      // Allow update only for creator OR if only updating subscriberCount
+      allow update: if isAuthenticated() && (
+        resource.data.createdBy == request.auth.uid ||
+        request.resource.data.diff(resource.data).affectedKeys().hasOnly(['subscriberCount', 'subscribers'])
+      );
+      allow delete: if isAuthenticated() && resource.data.createdBy == request.auth.uid;
+    }
+    
+    match /subscriptions/{subscriptionId} {
+      allow read: if isAuthenticated();
+      allow create: if isAuthenticated() && request.resource.data.userId == request.auth.uid;
+      allow update, delete: if isAuthenticated() && resource.data.userId == request.auth.uid;
+    }
+    
+    match /votes/{voteId} {
+      allow read: if isAuthenticated();
+      allow create: if isAuthenticated() && request.resource.data.userId == request.auth.uid;
+      allow update, delete: if isAuthenticated() && resource.data. userId == request.auth.uid;
+    }
+    
+    match /reflections/{reflectionId} {
+      allow read: if isAuthenticated();
+      allow create: if isAuthenticated() && request.resource. data.userId == request.auth. uid;
+      allow update: if isAuthenticated();
+      allow delete: if isAuthenticated() && resource.data.userId == request.auth.uid;
+    }
+    
+    match /renewals/{renewalId} {
+      allow read: if isAuthenticated();
+      allow create: if isAuthenticated() && request.resource.data.userId == request.auth.uid;
+      allow update, delete: if isAuthenticated() && resource.data.userId == request.auth.uid;
+    }
+    
+    match /questions/{questionId} {
+      allow read: if isAuthenticated();
+      allow create, update, delete: if isAuthenticated();
+    }
+    
+    match /questionResponses/{responseId} {
+      allow read: if isAuthenticated();
+      allow create: if isAuthenticated() && request.resource.data.userId == request.auth.uid;
+      allow update: if isAuthenticated();
+      allow delete: if isAuthenticated() && resource.data.userId == request. auth.uid;
+    }
+  }
+}

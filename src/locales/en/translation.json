@@ -1,0 +1,143 @@
+{
+  "app": {
+    "name": "Eldaem App",
+    "tagline": "Track your goals, grow with community"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "email": "Email",
+    "password": "Password",
+    "displayName": "Display Name",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account? ",
+    "signUp": "Sign Up",
+    "signIn": "Sign In"
+  },
+  "nav": {
+    "home": "Home",
+    "questions": "Questions",
+    "profile": "Profile",
+    "history": "History",
+    "messages": "Messages",
+    "settings": "Settings"
+  },
+  "home": {
+    "questions": "What did you learn today?",
+    "subscribers": "subscribers",
+    "totalVotes": "Total",
+    "yesVotes": "Yes",
+    "noVotes": "No",
+    "tapToJoin": "Tap to join"
+  },
+  "goalDetails": {
+    "title": "Goal Details",
+    "todayQuestion": "Did you achieve your goal today?",
+    "history": "View History",
+    "pause": "Pause Goal",
+    "finished": "Mark as Finished",
+    "sos": "Request Help (SOS)",
+    "wellDone": "Well done!",
+    "quantity": "Add quantity"
+  },
+  "questions": {
+    "title": "Questions",
+    "selectQuestion": "Select a question",
+    "noResponses": "No responses yet.  Be the first to respond!"
+  },
+  "profile": {
+    "title": "Profile",
+    "goalsJoined": "Goals Joined",
+    "reflections": "Reflections",
+    "totalVotes": "Total Votes"
+  },
+  "history": {
+    "title": "History",
+    "noHistory": "No history yet",
+    "overallPerformance": "Overall Performance",
+    "goalsBreakdown": "Goals Breakdown",
+    "avgCompletion": "Avg Completion",
+    "activeGoals": "Active Goals",
+    "totalCycles": "Total Cycles",
+    "totalDays": "Total Days",
+    "cycles": "Cycles",
+    "completion": "Completion",
+    "streak": "Streak",
+    "statusActive": "Active",
+    "statusPaused": "Paused",
+    "statusFinished": "Finished",
+    "statusPendingRenewal": "Pending Renewal",
+    "cyclesHistory": "Cycles History",
+    "cycleNumber": "Cycle {{number}}",
+    "present": "Present",
+    "completed": "Completed",
+    "failed": "Failed",
+    "skipped": "Skipped",
+    "days": "Days",
+    "viewDailyRecords": "View {{count}} daily records",
+    "reflection": "Reflection",
+    "noCycles": "No cycles yet",
+    "cyclesCompleted": "Cycles Completed"
+  },
+  "messages": {
+    "title": "Messages",
+    "comingSoon": "Messaging feature coming soon!"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "english": "English",
+    "arabic": "Arabic (عربي)",
+    "notifications": "Notifications",
+    "account": "Account",
+    "about": "About"
+  },
+  "joinRequest": {
+    "title": "Join Goal",
+    "why": "Why do you want to achieve this goal?",
+    "when": "When do you plan to start?",
+    "what": "What will you do to achieve it?",
+    "submit": "Join Goal"
+  },
+  "reflection": {
+    "placeholder": "Share your thoughts...",
+    "submit": "Share",
+    "likes": "likes"
+  },
+  "voting": {
+    "yes": "Yes, I did it!",
+    "no": "Not today",
+    "quantity": "How many times? ",
+    "reflection": "Share your reflection (optional)",
+    "alreadyVoted": "You have already voted today!",
+    "votedToday": "You voted today!",
+    "addReflection": "Add Reflection",
+    "allDoneToday": "All done for today!",
+    "comeBackTomorrow": "Come back tomorrow to vote again"
+  },
+  "renewal": {
+    "title": "Start New 30-Day Cycle",
+    "subtitle": "Congratulations on completing your cycle! Let's plan the next one.",
+    "question1": "What is this cycle and why?",
+    "question1Hint": "Reflect on what this goal means to you and why you want to continue",
+    "question1Placeholder": "I want to continue because...",
+    "question2": "When will you work on this goal?",
+    "question2Hint": "Define your schedule and commitment (e.g., daily morning, weekdays evening)",
+    "question2Placeholder": "I will work on this goal...",
+    "question3": "What do you want to achieve in this 30 days?",
+    "question3Hint": "Set specific, measurable outcomes for this cycle",
+    "question3Placeholder": "In the next 30 days, I want to...",
+    "submit": "Start New Cycle",
+    "errorRequired": "This field is required",
+    "errorTooShort": "Please provide at least 10 characters"
+  },
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "back": "Back",
+    "close": "Close"
+  }
+}

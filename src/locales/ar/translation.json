@@ -1,0 +1,143 @@
+{
+  "app": {
+    "name": "تطبيق الدعم",
+    "tagline": "تتبع أهدافك، انمو مع المجتمع"
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "register": "إنشاء حساب",
+    "logout": "تسجيل الخروج",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "displayName": "الاسم",
+    "noAccount": "ليس لديك حساب؟",
+    "hasAccount": "لديك حساب بالفعل؟",
+    "signUp": "إنشاء حساب",
+    "signIn": "تسجيل الدخول"
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "questions": "الأسئلة",
+    "profile": "الملف الشخصي",
+    "history": "السجل",
+    "messages": "الرسائل",
+    "settings": "الإعدادات"
+  },
+  "home": {
+    "questions": "ماذا تعلمت اليوم؟",
+    "subscribers": "مشترك",
+    "totalVotes": "الإجمالي",
+    "yesVotes": "نعم",
+    "noVotes": "لا",
+    "tapToJoin": "انقر للانضمام"
+  },
+  "goalDetails": {
+    "title": "تفاصيل الهدف",
+    "todayQuestion": "هل حققت هدفك اليوم؟",
+    "history": "عرض السجل",
+    "pause": "إيقاف مؤقت",
+    "finished": "تم الإنجاز",
+    "sos": "طلب مساعدة",
+    "wellDone": "أحسنت!",
+    "quantity": "أضف الكمية"
+  },
+  "questions": {
+    "title": "الأسئلة",
+    "selectQuestion": "اختر سؤالاً",
+    "noResponses": "لا توجد إجابات بعد. كن أول من يجيب!"
+  },
+  "profile": {
+    "title": "الملف الشخصي",
+    "goalsJoined": "الأهداف المنضمة",
+    "reflections": "التأملات",
+    "totalVotes": "إجمالي التصويتات"
+  },
+  "history": {
+    "title": "السجل",
+    "noHistory": "لا يوجد سجل بعد",
+    "overallPerformance": "الأداء العام",
+    "goalsBreakdown": "تفاصيل الأهداف",
+    "avgCompletion": "متوسط الإنجاز",
+    "activeGoals": "الأهداف النشطة",
+    "totalCycles": "إجمالي الدورات",
+    "totalDays": "إجمالي الأيام",
+    "cycles": "الدورات",
+    "completion": "الإنجاز",
+    "streak": "التتابع",
+    "statusActive": "نشط",
+    "statusPaused": "متوقف",
+    "statusFinished": "منتهي",
+    "statusPendingRenewal": "بانتظار التجديد",
+    "cyclesHistory": "سجل الدورات",
+    "cycleNumber": "الدورة {{number}}",
+    "present": "الحالي",
+    "completed": "مكتمل",
+    "failed": "فشل",
+    "skipped": "تخطي",
+    "days": "أيام",
+    "viewDailyRecords": "عرض {{count}} سجلات يومية",
+    "reflection": "التأمل",
+    "noCycles": "لا توجد دورات بعد",
+    "cyclesCompleted": "الدورات المكتملة"
+  },
+  "messages": {
+    "title": "الرسائل",
+    "comingSoon": "ميزة الرسائل قريباً!"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "language": "اللغة",
+    "english": "English (إنجليزي)",
+    "arabic": "عربي",
+    "notifications": "الإشعارات",
+    "account": "الحساب",
+    "about": "حول"
+  },
+  "joinRequest": {
+    "title": "الانضمام للهدف",
+    "why": "لماذا تريد تحقيق هذا الهدف؟",
+    "when": "متى تخطط للبدء؟",
+    "what": "ماذا ستفعل لتحقيقه؟",
+    "submit": "انضم"
+  },
+  "reflection": {
+    "placeholder": "شارك أفكارك...",
+    "submit": "مشاركة",
+    "likes": "إعجاب"
+  },
+  "voting": {
+    "yes": "نعم، فعلتها!",
+    "no": "ليس اليوم",
+    "quantity": "كم مرة؟",
+    "reflection": "شارك تأملك (اختياري)",
+    "alreadyVoted": "لقد صوّت اليوم بالفعل!",
+    "votedToday": "لقد صوّت اليوم!",
+    "addReflection": "أضف تأمل",
+    "allDoneToday": "تم الإنجاز لليوم!",
+    "comeBackTomorrow": "عد غداً للتصويت مجدداً"
+  },
+  "renewal": {
+    "title": "ابدأ دورة جديدة لمدة 30 يوماً",
+    "subtitle": "مبروك على إكمال دورتك! دعنا نخطط للدورة القادمة.",
+    "question1": "ما هي هذه الدورة ولماذا؟",
+    "question1Hint": "تأمل في معنى هذا الهدف بالنسبة لك ولماذا تريد المتابعة",
+    "question1Placeholder": "أريد المتابعة لأن...",
+    "question2": "متى ستعمل على هذا الهدف؟",
+    "question2Hint": "حدد جدولك والتزامك (مثلاً: صباح كل يوم، مساء أيام الأسبوع)",
+    "question2Placeholder": "سأعمل على هذا الهدف...",
+    "question3": "ماذا تريد أن تحقق في هذه الـ 30 يوماً؟",
+    "question3Hint": "ضع نتائج محددة وقابلة للقياس لهذه الدورة",
+    "question3Placeholder": "في الـ 30 يوماً القادمة، أريد...",
+    "submit": "ابدأ دورة جديدة",
+    "errorRequired": "هذا الحقل مطلوب",
+    "errorTooShort": "يرجى تقديم 10 أحرف على الأقل"
+  },
+  "common": {
+    "loading": "جاري التحميل...",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "submit": "إرسال",
+    "back": "رجوع",
+    "close": "إغلاق"
+  }
+}
